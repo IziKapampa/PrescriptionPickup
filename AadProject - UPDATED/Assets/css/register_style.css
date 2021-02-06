@@ -1,0 +1,113 @@
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+@font-face {
+	font-family: 'Bellota-Bold';
+	src: url('../fonts/Bellota-Bold.otf');
+}
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+
+form {
+	text-align: center;
+}
+/*Clearing out the white border around the image*/
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #FF0033;
+	font-family: 'Bellota-Bold', sans-serif;
+
+}
+
+/*Background image handling*/
+.wrapper {
+	background-image: url("../images/background2.jpg");
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	min-width: 950px;
+}
+/*Login box handling - styling*/
+.login_box {
+	font-family: 'Bellota-LightItalic', sans-serif;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 7%;
+	width: 38%;
+	background-color: #F0F8FF;
+	border: 1px solid #EDEDED;
+	border-radius: 12px;
+	padding: 15px;
+	opacity: 0.9;
+}
+
+.login_header {
+	font-family: 'Bellota-LightItalic', sans-serif;
+	width: 100%;
+	height: 90px;
+	margin: 10px 0px 10px 0px;
+	background-color: #ff8800;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.login_header h1 {
+	font-family: 'Bellota-Bold', sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #FFFFFF;
+	text-shadow: #fff 0.5px 0.5px 0px;
+	font-size: 250%;
+}
+
+
+input[type="submit"]:hover {
+	transform: scale(1.1);
+}
+
+input[type="submit"] {
+	background-color: #ff8800;
+	border: 1px solid #ff8800;
+	border-radius: 5px;
+	margin: 5px 0 10px 0;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	text-shadow: #fff 0.05px 0.05px 0px;
+	font-family: 'Bellota-Bold', sans-serif;
+	font-size: 22;
+	width: 150;
+	cursor: pointer;
+}
+
+#first input[type="text"], input[type="email"], input[type="password"] {
+	border: 1px solid #e5e5e5;
+	margin-top: 5px;
+	width: 55%;
+	height: 35px;
+	margin-bottom: 7px;
+	padding-left: 5px;
+	border-radius: 3px;
+	font-size: 18px;
+
+}
+
+#first input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+	border-color:#FF0033;
+}
